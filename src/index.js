@@ -40,8 +40,10 @@ export {default as curveNatural} from "./curve/natural.js";
 export {default as curveStep, stepAfter as curveStepAfter, stepBefore as curveStepBefore} from "./curve/step.js";
 
 export {default as stack} from "./stack.js";
+export {default as stackArea, stackAreaPath} from "./stackArea.js";
 export {default as stackOffsetExpand} from "./offset/expand.js";
 export {default as stackOffsetDiverging} from "./offset/diverging.js";
+export {default as stackOffsetDivergingGap} from "./offset/divergingGap.js";
 export {default as stackOffsetNone} from "./offset/none.js";
 export {default as stackOffsetSilhouette} from "./offset/silhouette.js";
 export {default as stackOffsetWiggle} from "./offset/wiggle.js";
